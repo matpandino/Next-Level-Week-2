@@ -1,0 +1,50 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary);
+}
+
+.page-header .top-bar-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-text-in-primary);
+  padding: 1.6rem 0;
+}
+
+.page-header .top-bar-container a {
+  height: 3.2rem;
+  transition: opacity 0.2s;
+}
+
+.page-header .top-bar-container img {
+  height: 1.6rem;
+}
+
+@media (min-width: 700px) {
+  .teacher-item header,
+  .teacher-item footer {
+    padding: 3.2rem;
+  }
+
+  .teacher-item p {
+    padding: 0 3.2rem;
+  }
+
+  .teacher-item footer p strong {
+    display: initial;
+    margin-left: 1.6rem;
+  }
+
+  .teacher-item footer button {
+    width: 24.5rem;
+    font-size: 1.6rem;
+    justify-content: center;
+  }
+
+  .teacher-item footer button img {
+    margin-right: 1.6rem;
+  }
+}
